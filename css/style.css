@@ -1,0 +1,248 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 16px;
+}
+
+.navbar-container {
+  background-color: #303030;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 999;
+}
+
+.navbar-container .polaron-nav {
+  margin-left: 50px;
+  width: 465px;
+}
+
+.navbar-container .polaron-nav-right {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 205px;
+}
+
+.shopify-image {
+  margin-top: 15px;
+  height: 30px;
+  float: left;
+}
+
+.nav > li > a {
+  color: #eee;
+  border-radius: 0;
+  padding: 19px 15px 19px 15px;
+}
+
+.nav > li > a:hover {
+  color: #428bca;
+  background-color: #303030;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #428bca;
+  background-color: #303030;
+}
+
+.nav-pills > li + li {
+  margin: 0;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+}
+
+.float-right {
+  float: right;
+}
+
+.menu-indent {
+  width: 100%;
+  height: 60px;
+}
+
+.enter-content-container {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.enter-background {
+  background-image: url("../assets/img/solar-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  z-index: -99;
+}
+
+.enter-background-cover {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  opacity: 0.85;
+}
+
+.enter-cover-container {
+  text-align: center;
+  color: #346DB6;
+  position: absolute;
+  margin: -163.5px 0 0 -371.5px;
+  left: 50%;
+  top: 50%;
+}
+
+.polaron-logo {
+  margin: 25px 0 15px 0;
+  height: 125px;
+}
+
+.btn {
+  margin-top: 20px;
+  line-height: 1.33;
+  padding: 12px 20px 12px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #346DB6;
+  background: transparent;
+  border: 1px solid #346DB6;
+}
+
+.btn:hover {
+  color: #eee;
+  background: #346DB6;
+}
+
+.enter-logo-group-container {
+  position: relative;
+  background-color: #eee;
+  width: 100%;
+  height: 175px;
+}
+
+.enter-logo-group-header {
+  padding: 25px 0 25px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #346DB6;
+}
+
+.logo-group {
+/*  width: 700px;*/
+  height: 60%;
+  margin-left: -55px;
+  text-align: center;
+  vertical-align: middle;
+/*  -moz-box-shadow: 0px 0px 4px #95A5A6;
+  -webkit-box-shadow: 0px 0px 4px #95A5A6;
+  box-shadow: 0px 0px 4px #95A5A6;*/
+}
+
+.logo-group > * {
+  vertical-align: middle;
+  display: inline-block;
+  height: 70px;
+  margin-left: 55px;
+}
+
+.intro-container {
+  height: 350px;
+  width: 100%;
+  text-align: middle;
+}
+
+.intro-wrapper {
+  margin: auto;
+  width: 800px;
+  height: 80%;
+}
+
+.intro-wrapper .col-lg-6 {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.intro-wrapper .col-lg-6 h3{
+  margin-top: 20px;
+  color: #346DB6;
+}
+
+.fa {
+  margin-right: 20px;
+}
+
+.enter-footer {
+  width: 100%;
+  height: 25px;
+  color: #eee;
+  background-color: #303030;
+  text-align: center;
+}
+
+/*.enter-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.enter-background {
+  background-image: url("../assets/img/solar-background.jpg");
+  background-size:   cover;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  margin: -5px;
+  width: 110%;
+  height: 110%;
+}
+
+.enter-background-cover {
+  width: 100%;
+  height: 100%;
+  background-color:black;
+  opacity: 0.7;
+}
+
+.enter-body-container {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 10%;
+  right: 7%;
+}
+
+.enter-footer-container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  vertical-align: middle;
+  text-align: center;
+  height: 20px;
+  width: 100%;
+}*/
+
+/*.enter-content {
+  background-color: white;
+  height: 80%;
+  width: 300px;
+}*/
