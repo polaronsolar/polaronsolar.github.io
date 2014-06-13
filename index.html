@@ -25,14 +25,20 @@
 		<div class="enter-footer-container">Copyright © 2014 Polaron Solartech. All rights reserved.</div>
 	</div> -->
 	<div class="navbar-container">
-<!-- 		<div class="nav-logo">
-			<img class="polaron-logo" src="assets/img/polaron-logo.png">
-		</div> -->
 		<ul class="nav nav-pills polaron-nav">
-			<li class="active"><a href="#">HOME</a></li>
+			<li><a href="/">HOME</a></li>
+			<li><a href="#">NEWS</a></li>
 			<li><a href="#">RESIDENTIAL</a></li>
 			<li><a href="#">COMMERCIAL</a></li>
-			<li><a href="#">TECHNICAL</a></li>
+			<li>
+				<div class="dropdown" id="dropdownMenu1" data-toggle="dropdown">
+					<a>TECHNICAL<i class="fa fa-caret-down"></i></a>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Installation</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Micro Inverter</a></li>
+					</ul>
+				</div>
+			</li>
 		</ul>
 		<ul class="nav nav-pills polaron-nav-right">
 			<img src="assets/img/shopify-logo.png" class="shopify-image" href="http://polaronsolar.myshopify.com">
@@ -41,14 +47,14 @@
 		</ul>
 	</div>
 	<div class="enter-content-container">
-		<div class="menu-indent">sss</div>
+		<div class="menu-indent"></div>
 		<div class="enter-background">
 			<div class="enter-background-cover"></div>
 		</div>
 		<div class="enter-cover-container">
-			<img class="polaron-logo" src="assets/img/polaron-logo.png">
-			<div><h1>We provide sustainable solution for your future<br>Become an earth warrior now</h1></div>
-			<div class="btn btn-default btn-lg">Explore Now</div>
+			<img id="welcome-logo" class="polaron-logo" src="assets/img/polaron-logo.png">
+			<div id="welcome-text"><h1>We provide sustainable solution for your future<br>Become an earth warrior now</h1></div>
+			<div id="welcome-btn" class="btn btn-default btn-lg">Explore Now</div>
 		</div>
 	</div>
 
@@ -73,6 +79,7 @@
 			<img src="assets/img/bbb-acredited-business.jpg">
 		</div>
 	</div>
-	<div class="enter-footer">Copyright © 2014 Polaron Solartech. All rights reserved.</div>
+	<div class="enter-footer">Copyright © 2014 Polaron Solartech. All rights reserved. If you have any questions, you can <a href="">contact us</a>.</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
 </body>
