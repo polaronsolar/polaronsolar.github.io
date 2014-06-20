@@ -1,0 +1,57 @@
+.faq-page-container {
+  background-color: #eee;
+  height: 800px;
+}
+
+.faq-content-wrapper {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.inline-header > * {
+  display: inline-block;
+}
+
+.inline-header > p {
+  margin-left: 15px;
+}
+
+.panel-default > .panel-heading {
+  background-color: #303030;
+  color: #346DB6;
+}
+
+.panel-default a {
+  text-decoration: none;
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkbox + span {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.question-container span {
+  display: inline-block;
+}
+
+.question-container > label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.question-container p {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: -5px;
+  margin-left: 5px;
+  color: #346DB6;
+}
